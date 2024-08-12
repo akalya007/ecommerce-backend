@@ -119,7 +119,7 @@
 
 
 
-const Order = require("../models/OrderModel");
+const Order = require("../models/orderModel");
 const Cart = require("../models/cartModel");
 const ProductModel = require("../models/productModel");
 const { v4: uuidv4 } = require('uuid');
