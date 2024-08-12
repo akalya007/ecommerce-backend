@@ -10,6 +10,7 @@ const auth= (req,res,next)=>{
         const decoded =jwt.verify(token,"secret_token");
         req.user=decoded;
         next();
+        console.log("token",token)
     }
     catch(err){
         res.status(401).json({error:"Token is not Verify"});

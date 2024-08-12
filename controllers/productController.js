@@ -32,6 +32,8 @@ exports.createProduct= async(req,res)=>{
         image,
         rating,
     })
+console.log("cost", cost)
+
 
 
     await product.save();

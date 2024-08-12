@@ -178,7 +178,10 @@ exports.getcarts = async (req, res) => {
         };
       })
     );
+    
     res.status(200).json({ cartItems: CartItems, subTotal });
+    //console.log("name",name);
+    console.log("cost",cost);
   } catch (error) {
     res.status(500).json({ message: "Server Error", error: error.message });
   }

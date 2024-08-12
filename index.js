@@ -13,8 +13,8 @@ app.use(express.json());
 app.use(cors());                           //buildin middleware.
 
 mongoose.connect(
-    "mongodb://localhost:27017/e_commerce"
-//    "mongodb+srv://akalya:akalya@cluster0.ntdxaml.mongodb.net/e_commerce"
+    // "mongodb://localhost:27017/e_commerce"
+    "mongodb+srv://akalya:akalya@cluster0.ntdxaml.mongodb.net/e_commerce"
 ).then(() => {
     console.log("connected to database");
 }).catch(err => {
@@ -26,7 +26,7 @@ app.use("/user", userRoutes);
 app.use("/cart", cartRoutes);
 app.use("/order", orderRoutes);
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log("server is running on port 3000");
 });
 

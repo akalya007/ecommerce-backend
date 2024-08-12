@@ -239,16 +239,23 @@ orey oder kulla irrukama, order id vera vetchu,
 CREATE ORDER
 ============
 {
-    "cus_name": " Akalya",
-    "cus_address":"ABC city",
-    "cus_mbl_number":"1234567890"
+    "cust_name": " Akalya",
+    "cust_phno":"1234567890",
+    "cust_address":"ABC city"
 }
 
 
 * guthub la potu deploy pananum
 
 
-
+//  {
+//     "id":"3",
+//     "name":"Burger Corner",
+//     "cuisines":"Classic American Burgers",
+//     "image":"https://b.zmtcdn.com/data/dish_photos/8e6/f0efba2253e3208681d2f9f9581368e6.jpg?output-format=webp",
+//     "cost":"500 ",
+//     "rating":"3.9 "
+// }
 
 
 
