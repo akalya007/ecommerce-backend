@@ -21,10 +21,10 @@ mongoose.connect(
     console.error("Database connection error:", err);
 });
 
-app.use("/products", productRoutes);
+app.use("/product", productRoutes);
 app.use("/user", userRoutes);
 app.use("/cart", cartRoutes);
-app.use("/orders", orderRoutes);
+app.use("/order", orderRoutes);
 
 app.listen(3000, () => {
     console.log("server is running on port 3000");
