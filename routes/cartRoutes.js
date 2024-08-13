@@ -14,9 +14,9 @@ const CartController = require("../controllers/cartController");
 const router = express.Router();
 const auth = require("../middleware/auth");
 
-router.get("/getCart", auth, CartController.getcarts);
-router.post("/createCart", auth, CartController.createCart);
-router.delete("/deleteCart/:id", auth, CartController.deleteCart); 
+router.get("/getcart", auth, CartController.getcarts);
+router.post("/createcart", auth, CartController.createCart);
+router.delete("/deletecart/:id", auth, CartController.deleteCart); 
 module.exports = router;
 
 

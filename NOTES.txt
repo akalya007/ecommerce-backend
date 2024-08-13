@@ -1,8 +1,11 @@
 use of MVC
 
-Direct ah image ha databse la store panna mudiyathu, athuku oru cluod serice la store panni , athoda link eduthutha databse la store pannamudiyum
+Direct ah image ha databse la store panna mudiyathu, athuku oru cluod serice la store panni or fire store  , athoda link eduthutha databse la store pannamudiyum
+
+path types --absolute path,  relative path 
 
 
+mongodn--cannot store image- but can convert im
 When having the more
 
 
