@@ -257,5 +257,66 @@ CREATE ORDER
 //     "rating":"3.9 "
 // }
 
+====================================
 
+
+   
+    [
+        {
+    "id":"4",
+    "name":"Annapoorna",
+    "cuisines":"BreakFast, Lunch<Dinner (All Tym All Dishes)",
+    "image":"https://b.zmtcdn.com/data/pictures/chains/3/3000293/f3543d4461e17530c06a5c19f2c39d0e.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    "cost":300,
+    "rating":"4.5"
+},
+{
+     "id":"5",
+    "name":" MoMos Corner",
+    "cuisines":"Exotic Momo Creations",
+    "image":"https://b.zmtcdn.com/data/dish_photos/581/950e9c56cae689755427629139de0581.jpg?output-format=webp",
+    "cost":200,
+    "rating":"3.5"
+
+},
+{
+ "id":"6",
+    "name":"lalithas kitchen",
+    "cuisines":"Homestyle Indian Cooking",
+    "image":"https://b.zmtcdn.com/data/dish_photos/f54/c2b76008f0c789d10862a1d92e342f54.jpg",
+    "cost":500,
+    "rating":"4.0"
+},
+{
+ "id":"7",
+    "name":"hyderbad briyani",
+    "cuisines":"Authentichyderbad  Biryani",
+    "image":"https://b.zmtcdn.com/data/pictures/2/3000172/01c361be49104bfce556f3360879c13a_o2_featured_v2.jpg?output-format=webp",
+    "cost":360,
+    "rating":"4.6"
+},
+{
+  "id":"8",
+    "name":" IceCream Parlour",
+    "cuisines":"Delectable Ice Creams",
+    "image":"https://b.zmtcdn.com/data/pictures/8/18682648/d65faa17965f55ca4d49c5764b5d6768.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+    "cost":350,
+    "rating":"4.4"   
+},
+{
+ "id":"9",
+    "name":"cafetaria",
+    "cuisines":"International Comfort Eats",
+    "image":"https://b.zmtcdn.com/data/dish_photos/30b/6071ae7d4d741657d0aaf667a271b30b.jpg?output-format=webp",
+    "cost":100,
+    "rating":"4.3"
+},{
+     "id":"10",
+    "name":"Tasty Pizza",
+    "cuisines":"Authentic Italian Pizzas",
+    "image":"https://b.zmtcdn.com/data/dish_photos/708/595b59612e68f7546d5460d6ad025708.jpg?output-format=webp",
+    "cost":500,
+    "rating":"4.5"
+}
+    ]
 
