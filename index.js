@@ -26,7 +26,7 @@ app.use("/user", userRoutes);
 app.use("/cart", cartRoutes);
 app.use("/order", orderRoutes);
 
-app.listen(3001, () => {
+app.listen(3002, () => {
     console.log("server is running on port 3000");
 });
 
