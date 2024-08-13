@@ -6,7 +6,7 @@ const auth= require("../middleware/auth");
 
 
 
-router.get("/getproduct", auth,ProductController.getProducts);
+router.get("/getproduct",ProductController.getProducts);
 router.post("/createproduct",auth, ProductController.createProduct);
 
 
